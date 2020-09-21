@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Josefin Sans',sans-serif;
+  font-family: 'Josefin Sans';
   color: #242526; }
   @media only screen and (max-width: 300px) {
     html {
@@ -115,7 +115,7 @@ h3 {
       margin-top: 2rem; }
     .info-box--location {
       margin-top: 1rem;
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-family: 'IBM Plex Mono',sans-serif;
       text-align: center; }
     .info-box--icons {
@@ -167,11 +167,11 @@ a {
       font-size: 10rem; }
     .skills-item--about {
       text-align: center;
-      font-size: 2rem;
-      letter-spacing: 4px;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
       font-family: 'IBM Plex Mono',sans-serif; }
     .skills-item--tech {
-      font-size: 2rem;
+      font-size: 1.8rem;
       text-align: center;
       padding: 2rem; }
     .skills-item--lang {
@@ -188,6 +188,10 @@ a {
   .animate-enter {
     opacity: 1;
     transform: none; }
+
+svg {
+  width: 7rem;
+  height: 10rem; }
 
 .career {
   margin-top: 1rem; }
@@ -206,13 +210,13 @@ a {
     line-height: 3rem;
     align-items: center; }
     .career-item--comp {
-      font-size: 2rem; }
+      font-size: 1.8rem; }
     .career-item--date {
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: 300;
       font-style: italic; }
     .career-item--location {
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: 300;
       font-style: italic; }
     .career-item a {
@@ -247,8 +251,8 @@ a {
         max-width: 33%; } }
     .projects-item--about {
       text-align: center;
-      font-size: 2rem;
-      letter-spacing: 4px;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
       font-family: 'IBM Plex Mono',sans-serif; }
     .projects-item--lang {
       font-size: 1.5rem;
