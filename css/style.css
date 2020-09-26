@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans',sans-serif;
   color: #242526; }
   @media only screen and (max-width: 300px) {
     html {
@@ -132,6 +132,10 @@ a {
   text-decoration: none;
   color: inherit; }
 
+a svg {
+  width: 2.5rem;
+  height: 2.5rem; }
+
 .skills {
   margin-top: 6rem; }
   .skills-title {
@@ -193,7 +197,7 @@ a {
     opacity: 1;
     transform: none; }
 
-svg {
+span svg {
   width: 7rem;
   height: 10rem; }
 
