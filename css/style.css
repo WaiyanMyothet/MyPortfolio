@@ -243,6 +243,7 @@ span svg {
     padding: 3rem 0; }
   .projects-item {
     width: 100%;
+    padding: 0 3rem;
     margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
@@ -252,19 +253,25 @@ span svg {
     .projects-item:last-child {
       margin-bottom: 0; }
     @media only screen and (min-width: 1200px) and (max-width: 1280px) {
-      .projects-item--wrapper {
-        max-width: 33%; } }
+      .projects-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 0; } }
     @media only screen and (min-width: 1280px) {
-      .projects-item--wrapper {
-        max-width: 33%; } }
+      .projects-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 0; } }
     @media only screen and (min-width: 900px) and (max-width: 1200px) {
-      .projects-item--wrapper {
-        max-width: 33%; } }
+      .projects-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin: 0; } }
     .projects-item--about {
       text-align: center;
       font-size: 1.8rem;
       letter-spacing: 1px;
-      font-family: 'IBM Plex Serif',sans-serif; }
+      font-family: "IBM Plex Serif", sans-serif; }
     .projects-item--lang {
       font-size: 1.5rem;
       letter-spacing: 2px;
@@ -340,3 +347,8 @@ span svg {
       margin: 1.2rem; }
     .education-item--logo {
       max-width: 12rem; }
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem; }
