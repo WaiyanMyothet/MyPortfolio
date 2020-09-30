@@ -8,19 +8,19 @@
     "background_color": "#242526",
     "icons": [
       {
-        "src": "images/touch/icon-192x192.png",
+        "src": "image/touch/icon-192x192.png",
         "sizes": "192x192"
       },
       {
-        "src": "images/touch/icon-256x256.png",
+        "src": "image/touch/icon-256x256.png",
         "sizes": "256x256"
       },
       {
-        "src": "images/touch/icon-384x384.png",
+        "src": "image/touch/icon-384x384.png",
         "sizes": "384x384"
       },
       {
-        "src": "images/touch/icon-512x512.png",
+        "src": "image/touch/icon-512x512.png",
         "sizes": "512x512"
       }
     ]
