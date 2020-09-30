@@ -11,6 +11,7 @@ const filesToCache = [
 const staticCacheName = "cache-v1";
 
 self.addEventListener("install", (event) => {
+  console.log('installing');
   event.waitUntil(
     caches.open(staticCacheName).then((cache) => {
       return cache.addAll(filesToCache);
@@ -21,6 +22,7 @@ self.addEventListener("install", (event) => {
 
 self.addEventListener("activate", (event) => {
   const cacheWhitelist = [staticCacheName];
+  console.log('activating');
 
   event.waitUntil(
     caches.keys().then((cacheNames) => {
@@ -36,6 +38,7 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
+  console.log('fetching')
   event.respondWith(
     fetch(event.req).catch(function () {
       return caches.match(event.req);
