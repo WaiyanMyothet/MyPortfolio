@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Josefin Sans',sans-serif;
+  font-family: 'Work Sans';
   color: #242526; }
   @media only screen and (max-width: 300px) {
     html {
@@ -32,7 +32,7 @@ h2 {
   font-size: 3.5rem; }
 
 h3 {
-  font-size: 2.5rem; }
+  font-size: 2.3rem; }
 
 .typing h1 {
   border-right: 0.15em solid orange;
@@ -116,13 +116,13 @@ h3 {
     .info-box--location {
       margin-top: 1rem;
       font-size: 1.8rem;
-      font-family: 'IBM Plex Mono',sans-serif;
+      font-family: 'IBM Plex Serif',sans-serif;
       text-align: center; }
     .info-box--icons {
       display: flex; }
 
 .icons {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   margin: 1rem;
   cursor: pointer; }
   .icons:hover {
@@ -177,7 +177,7 @@ a svg {
       text-align: center;
       font-size: 1.8rem;
       letter-spacing: 1px;
-      font-family: 'IBM Plex Mono',sans-serif; }
+      font-family: 'IBM Plex Serif',sans-serif; }
     .skills-item--tech {
       font-size: 1.8rem;
       text-align: center;
@@ -240,8 +240,7 @@ span svg {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 3rem;
-    padding-bottom: 5rem; }
+    padding: 3rem 0; }
   .projects-item {
     width: 100%;
     margin-bottom: 3rem;
@@ -265,7 +264,7 @@ span svg {
       text-align: center;
       font-size: 1.8rem;
       letter-spacing: 1px;
-      font-family: 'IBM Plex Mono',sans-serif; }
+      font-family: 'IBM Plex Serif',sans-serif; }
     .projects-item--lang {
       font-size: 1.5rem;
       letter-spacing: 2px;
@@ -277,3 +276,67 @@ span svg {
       font-size: 1.5rem;
       letter-spacing: 2px;
       font-weight: 700; }
+
+.contact {
+  margin-top: 3rem; }
+  .contact-title {
+    text-align: center; }
+  .contact-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    padding-bottom: 5rem; }
+  .contact-box {
+    width: 100%;
+    margin-bottom: 2rem; }
+    .contact-box:last-child {
+      margin-bottom: 0; }
+    @media only screen and (min-width: 1200px) and (max-width: 1280px) {
+      .contact-box {
+        max-width: 33%; } }
+    @media only screen and (min-width: 1280px) {
+      .contact-box {
+        max-width: 33%; } }
+    @media only screen and (min-width: 900px) and (max-width: 1200px) {
+      .contact-box {
+        max-width: 33%; } }
+    .contact-box label {
+      font-size: 1.8rem; }
+  .contact-input {
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    border: 1.5px solid #242526;
+    border-radius: 5px;
+    min-height: 3.5rem;
+    margin: 0.4rem 0;
+    padding: 0.4rem;
+    font-size: 1.8rem;
+    color: #242526; }
+    .contact-input:focus {
+      border: 2px solid #242526; }
+
+.education {
+  margin-top: 3rem; }
+  .education-title {
+    text-align: center; }
+  .education-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .education-item {
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 3rem;
+    align-items: center; }
+    .education-item--comp {
+      font-size: 1.8rem; }
+    .education-item a {
+      margin: 1.2rem; }
+    .education-item--logo {
+      max-width: 12rem; }
