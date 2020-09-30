@@ -409,5 +409,13 @@
       </section>
     </main>
     <footer>copyright &#169; 2020 waiyanmyothet.me</footer>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/js/sw.js");
+        });
+      }
+    </script>
   </body>
 </html>
