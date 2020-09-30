@@ -34,6 +34,9 @@ h2 {
 h3 {
   font-size: 2.3rem; }
 
+h4 {
+  font-size: 2.1rem; }
+
 .typing h1 {
   border-right: 0.15em solid orange;
   white-space: nowrap;
@@ -343,6 +346,9 @@ span svg {
     align-items: center; }
     .education-item--comp {
       font-size: 1.8rem; }
+    .education-item--sub {
+      font-size: 1.8rem;
+      font-weight: 600; }
     .education-item a {
       margin: 1.2rem; }
     .education-item--logo {
