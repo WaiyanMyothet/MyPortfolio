@@ -38,10 +38,10 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-  console.log(event.req);
+  console.log(event.request);
   event.respondWith(
-    fetch(event.req).catch(function () {
-      return caches.match(event.req);
+    fetch(event.request).catch(function () {
+      return caches.match(event.request);
     })
   );
 });
