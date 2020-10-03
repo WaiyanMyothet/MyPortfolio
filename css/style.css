@@ -39,7 +39,9 @@ h4 {
 
 svg {
   fill: currentColor;
-  color: #242526; }
+  color: #242526;
+  stroke-width: 0px;
+  stroke: currentColor; }
 
 .typing h1 {
   border-right: 0.15em solid orange;
